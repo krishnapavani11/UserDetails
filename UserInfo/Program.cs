@@ -27,18 +27,18 @@ namespace UserInfo
                 Console.Write("Enter user Email: ");
                 string sEmail = Console.ReadLine();
 
-                SNo++; // increment for each student
+                SNo++; // increment serial number
                 return $"{SNo},{sName},{iAge},{sEmail}\n";
             }
 
             do
             {
                 Console.WriteLine("\nMain Menu");
-                Console.WriteLine("------------------------------");
+                Console.WriteLine("-------------------------------");
                 Console.WriteLine("1. Add User");
                 Console.WriteLine("2. List Of User");
                 Console.WriteLine("3. Exit");
-                Console.WriteLine("------------------------------");
+                Console.WriteLine("-------------------------------");
                 Console.Write("Enter your Choice: ");
                 iNumber=Convert.ToInt32(Console.ReadLine());
 
